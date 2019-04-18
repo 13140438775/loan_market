@@ -1,0 +1,1396 @@
+2019-02-20 09:58:52 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-02-20 09:58:52 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550656732.3308
+    'REQUEST_TIME' => 1550656732
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats'
+    ]
+    'argc' => 2
+]
+2019-02-20 09:59:15 [-][-][-][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\console\Request::get() in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /Users/heyafei/code/loan_market/console/controllers/StatsChannelDataController.php(16): yii\base\Component->__call('get', Array)
+#1 [internal function]: console\controllers\StatsChannelDataController->actionStatsChannelData()
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#7 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#8 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#10 {main}
+2019-02-20 09:59:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550656755.2861
+    'REQUEST_TIME' => 1550656755
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+    ]
+    'argc' => 2
+]
+2019-02-20 10:02:12 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: date in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php:186
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#8 {main}
+2019-02-20 10:02:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550656932.3241
+    'REQUEST_TIME' => 1550656932
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+    ]
+    'argc' => 2
+]
+2019-02-20 10:02:29 [-][-][-][error][Error] Error: Call to undefined function 20181101() in /Users/heyafei/code/loan_market/console/controllers/StatsChannelDataController.php:17
+Stack trace:
+#0 [internal function]: console\controllers\StatsChannelDataController->actionStatsChannelData('20181101')
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#7 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#9 {main}
+2019-02-20 10:02:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550656949.0647
+    'REQUEST_TIME' => 1550656949
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+        2 => '20181101'
+    ]
+    'argc' => 3
+]
+2019-02-20 10:02:46 [-][-][-][error][Error] Error: Call to undefined function 20181101() in /Users/heyafei/code/loan_market/console/controllers/StatsChannelDataController.php:17
+Stack trace:
+#0 [internal function]: console\controllers\StatsChannelDataController->actionStatsChannelData('20181101')
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#7 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#9 {main}
+2019-02-20 10:02:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550656966.4093
+    'REQUEST_TIME' => 1550656966
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+        2 => '20181101'
+    ]
+    'argc' => 3
+]
+2019-02-20 10:04:46 [-][-][-][error][Error] Error: Call to undefined function 20181101() in /Users/heyafei/code/loan_market/console/controllers/StatsChannelDataController.php:17
+Stack trace:
+#0 [internal function]: console\controllers\StatsChannelDataController->actionStatsChannelData('20181101')
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#7 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#9 {main}
+2019-02-20 10:04:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550657086.019
+    'REQUEST_TIME' => 1550657086
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+        2 => '20181101'
+    ]
+    'argc' => 3
+]
+2019-02-20 10:05:44 [-][-][-][error][Error] Error: Class 'app\models\ChannelData' not found in /Users/heyafei/code/loan_market/common/services/StatsChannelDataServices.php:66
+Stack trace:
+#0 /Users/heyafei/code/loan_market/console/controllers/StatsChannelDataController.php(20): common\services\StatsChannelDataServices::saveChannelData('2018-11-01 00:0...', '2018-11-02 00:0...')
+#1 [internal function]: console\controllers\StatsChannelDataController->actionStatsChannelData('20181101')
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#7 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#8 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#10 {main}
+2019-02-20 10:05:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550657144.3426
+    'REQUEST_TIME' => 1550657144
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+        2 => '20181101'
+    ]
+    'argc' => 3
+]
+2019-02-20 10:06:18 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: date in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php:186
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#8 {main}
+2019-02-20 10:06:18 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550657178.4474
+    'REQUEST_TIME' => 1550657178
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+    ]
+    'argc' => 2
+]
+2019-02-20 10:09:15 [-][-][-][error][Error] Error: Class 'app\models\ChannelData' not found in /Users/heyafei/code/loan_market/common/services/StatsChannelDataServices.php:65
+Stack trace:
+#0 /Users/heyafei/code/loan_market/console/controllers/StatsChannelDataController.php(20): common\services\StatsChannelDataServices::saveChannelData('2019-02-20 00:0...', '2019-02-21 00:0...')
+#1 [internal function]: console\controllers\StatsChannelDataController->actionStatsChannelData('2019-02-20')
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#7 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#8 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#10 {main}
+2019-02-20 10:09:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'TERM' => 'xterm-256color'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.hSMR8zv1TI/Render'
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'USER' => 'heyafei'
+    'COMMAND_MODE' => 'unix2003'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.wlppcTXi5a/Listeners'
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'XPC_FLAGS' => '0x0'
+    'XPC_SERVICE_NAME' => '0'
+    'SHLVL' => '1'
+    'HOME' => '/Users/heyafei'
+    'LOGNAME' => 'heyafei'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'SECURITYSESSIONID' => '186a8'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-84'
+    'BASH_FUNC_generate_command_executed_sequence%%' => '() {  printf \'\\e\\7\'
+}'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550657355.0991
+    'REQUEST_TIME' => 1550657355
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+        2 => '0'
+    ]
+    'argc' => 3
+]
+2019-02-22 07:11:36 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-02-22 07:11:36 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-64'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-64'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1550819496.4722
+    'REQUEST_TIME' => 1550819496
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats'
+    ]
+    'argc' => 2
+]
+2019-02-25 03:24:45 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "St". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('St', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('St', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "St". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('St', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-02-25 03:24:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-462'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-462'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551065085.2113
+    'REQUEST_TIME' => 1551065085
+    'argv' => [
+        0 => 'yii'
+        1 => 'St'
+    ]
+    'argc' => 2
+]
+2019-02-25 03:24:55 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-02-25 03:24:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-462'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-462'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551065094.9936
+    'REQUEST_TIME' => 1551065094
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats'
+    ]
+    'argc' => 2
+]
+2019-02-25 03:25:08 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: date in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php:186
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('save-channel-re...', Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('save-channel-re...', Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#8 {main}
+2019-02-25 03:25:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-462'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-462'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551065108.4305
+    'REQUEST_TIME' => 1551065108
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/save-channel-redis-data'
+    ]
+    'argc' => 2
+]
+2019-03-04 09:31:24 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "stats". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-03-04 09:31:24 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551691884.7773
+    'REQUEST_TIME' => 1551691884
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats'
+    ]
+    'argc' => 2
+]
+2019-03-04 09:32:29 [-][-][-][error][yii\console\Exception] yii\console\Exception: Missing required arguments: date in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php:186
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(51): yii\console\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Controller.php(148): yii\base\Controller->runAction('stats-channel-d...', Array)
+#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('stats-channel-d...', Array)
+#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('stats-channel-d...', Array)
+#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('stats-channel-d...', Array)
+#6 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#7 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#8 {main}
+2019-03-04 09:32:29 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1551691949.3418
+    'REQUEST_TIME' => 1551691949
+    'argv' => [
+        0 => 'yii'
+        1 => 'stats-channel-data/stats-channel-data'
+    ]
+    'argc' => 2
+]
+2019-03-15 06:26:56 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "repay". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('repay', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('repay', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "repay". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('repay', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-03-15 06:26:56 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552631216.3838
+    'REQUEST_TIME' => 1552631216
+    'argv' => [
+        0 => 'yii'
+        1 => 'repay'
+    ]
+    'argc' => 2
+]
+2019-03-15 15:34:15 [-][-][-][error][application] API:http://47.110.32.191:22002/notice/send/singleSms请求失败,请求数据：{"bizType":1001,"params":"111,test1,34","phone":"18221970891","userFrom":10001,"json":{"bizType":1001,"params":"111,test1,34","phone":"18221970891","userFrom":10001}}, error: 业务类型为：1001，的短信模板不存在
+2019-03-15 15:34:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552635255.1584
+    'REQUEST_TIME' => 1552635255
+    'argv' => [
+        0 => 'yii'
+        1 => 'repay-plan-notice/order-notice-t-3'
+    ]
+    'argc' => 2
+]
+2019-03-15 16:11:14 [-][-][-][error][application] API:http://47.110.32.191:22002/notice/send/singleSms请求失败,请求数据：{"bizType":114,"params":"111,test1,34","phone":"13140438775","userFrom":10001,"json":{"bizType":114,"params":"111,test1,34","phone":"13140438775","userFrom":10001}}, error: 该手机号短信正在发送中，请稍后再试
+2019-03-15 16:11:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552637474.6115
+    'REQUEST_TIME' => 1552637474
+    'argv' => [
+        0 => 'yii'
+        1 => 'repay-plan-notice/order-notice-t-3'
+    ]
+    'argc' => 2
+]
+2019-03-15 20:37:11 [-][-][-][error][application] API:http://47.110.32.191:22002/notice/singlePush请求失败,请求数据：{"devType":"all","jpushParam":[],"msg":"\u5c0a\u656c\u7684111\uff0c\u60a8\u5728test1\u4ea7\u54c1\u7684\u501f\u6b3e\u5df2\u903e\u671f3\u5929\uff0c\u9700\u8fd8\u6b3e34\u5143\uff0c\u53ef\u5728APP\u6211\u7684\u501f\u6b3e\u91cc\u8fdb\u884c\u8fd8\u6b3e\uff01","title":"\u501f\u6b3e\u6d88\u606f","userIds":1,"userFrom":10001,"json":{"devType":"all","jpushParam":[],"msg":"\u5c0a\u656c\u7684111\uff0c\u60a8\u5728test1\u4ea7\u54c1\u7684\u501f\u6b3e\u5df2\u903e\u671f3\u5929\uff0c\u9700\u8fd8\u6b3e34\u5143\uff0c\u53ef\u5728APP\u6211\u7684\u501f\u6b3e\u91cc\u8fdb\u884c\u8fd8\u6b3e\uff01","title":"\u501f\u6b3e\u6d88\u606f","userIds":1,"userFrom":10001}}, error: JSON parse error: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `java.util.LinkedHashMap` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 1, column: 31] (through reference chain: basics.message.api.domain.request.JPushAliasParam["jpushParam"])
+2019-03-15 20:37:10 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552653430.6514
+    'REQUEST_TIME' => 1552653430
+    'argv' => [
+        0 => 'yii'
+        1 => 'repay-plan-notice/order-notice-t-3'
+    ]
+    'argc' => 2
+]
+2019-03-16 11:19:14 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "order". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('order', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('order', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "order". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('order', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-03-16 11:19:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-332'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552706354.1646
+    'REQUEST_TIME' => 1552706354
+    'argv' => [
+        0 => 'yii'
+        1 => 'order'
+    ]
+    'argc' => 2
+]
+2019-03-18 11:06:39 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "re". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('re', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('re', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "re". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('re', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-03-18 11:06:39 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552878399.7712
+    'REQUEST_TIME' => 1552878399
+    'argv' => [
+        0 => 'yii'
+        1 => 're'
+    ]
+    'argc' => 2
+]
+2019-03-19 14:11:41 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "order". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('order', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('order', Array)
+#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "order". in /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('order', Array)
+#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /Users/heyafei/code/loan_market/yii(25): yii\base\Application->run()
+#3 {main}
+2019-03-19 14:11:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552975901.6584
+    'REQUEST_TIME' => 1552975901
+    'argv' => [
+        0 => 'yii'
+        1 => 'order'
+    ]
+    'argc' => 2
+]
+2019-03-19 14:22:31 [-][-][-][error][application] API:http://47.110.32.191:22002/notice/send/singleSms请求失败,请求数据：{"bizType":115,"params":"0,test1,1500","phone":"13140438775","json":{"bizType":115,"params":"0,test1,1500","phone":"13140438775"}}, error: 商户不能为空
+2019-03-19 14:22:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552976551.2848
+    'REQUEST_TIME' => 1552976551
+    'argv' => [
+        0 => 'yii'
+        1 => 'order-status-notice/order-status-notice'
+    ]
+    'argc' => 2
+]
+2019-03-19 14:24:22 [-][-][-][error][application] API:http://47.110.32.191:22002/notice/send/singleSms请求失败,请求数据：{"bizType":115,"params":"0,test1,1500","phone":"13140438775","json":{"bizType":115,"params":"0,test1,1500","phone":"13140438775"}}, error: 商户不能为空
+2019-03-19 14:24:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    '__INTELLIJ_COMMAND_HISTFILE__' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    'HOME' => '/Users/heyafei'
+    'ZDOTDIR' => ''
+    '__CF_USER_TEXT_ENCODING' => '0x1F5:0x19:0x34'
+    'LOGIN_SHELL' => '1'
+    'PATH' => '/usr/local/opt/mongodb@3.0/bin:/usr/local/opt/redis@3.2/bin:/usr/local/opt/php@7.1/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+    'USER' => 'heyafei'
+    'SSH_AUTH_SOCK' => '/private/tmp/com.apple.launchd.lpeqTcSnru/Listeners'
+    'TMPDIR' => '/var/folders/01/gyp9f2j96pd53p8f3qm7m0hm0000gn/T/'
+    'SHELL' => '/bin/zsh'
+    'LOGNAME' => 'heyafei'
+    'XPC_SERVICE_NAME' => '0'
+    'LC_CTYPE' => 'zh_CN.UTF-8'
+    'Apple_PubSub_Socket_Render' => '/private/tmp/com.apple.launchd.qgLWzg2o2X/Render'
+    'XPC_FLAGS' => '0x0'
+    'TERM' => 'xterm-256color'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SHLVL' => '1'
+    'PWD' => '/Users/heyafei/code/loan_market'
+    'OLDPWD' => '/Users/heyafei/code/loan_market'
+    'ZSH' => '/Users/heyafei/.oh-my-zsh'
+    'PAGER' => 'less'
+    'LESS' => '-R'
+    'LSCOLORS' => 'Gxfxcxdxbxegedabagacad'
+    'LS_COLORS' => 'no=00:fi=00:di=01;34:ln=00;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=41;33;01:ex=00;32:*.cmd=00;32:*.exe=01;32:*.com=01;32:*.bat=01;32:*.btm=01;32:*.dll=01;32:*.tar=00;31:*.tbz=00;31:*.tgz=00;31:*.rpm=00;31:*.deb=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.zoo=00;31:*.z=00;31:*.Z=00;31:*.gz=00;31:*.bz2=00;31:*.tb2=00;31:*.tz2=00;31:*.tbz2=00;31:*.avi=01;35:*.bmp=01;35:*.fli=01;35:*.gif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mng=01;35:*.mov=01;35:*.mpg=01;35:*.pcx=01;35:*.pbm=01;35:*.pgm=01;35:*.png=01;35:*.ppm=01;35:*.tga=01;35:*.tif=01;35:*.xbm=01;35:*.xpm=01;35:*.dl=01;35:*.gl=01;35:*.wmv=01;35:*.aiff=00;32:*.au=00;32:*.mid=00;32:*.mp3=00;32:*.ogg=00;32:*.voc=00;32:*.wav=00;32:'
+    'HISTFILE' => '/Users/heyafei/Library/Preferences/PhpStorm2018.3/terminal/history/history-391'
+    '_' => '/usr/local/opt/php@7.1/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1552976662.0494
+    'REQUEST_TIME' => 1552976662
+    'argv' => [
+        0 => 'yii'
+        1 => 'order-status-notice/order-status-notice'
+    ]
+    'argc' => 2
+]

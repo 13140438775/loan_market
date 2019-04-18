@@ -1,0 +1,42 @@
+2019-03-19 16:38:03 [127.0.0.1][-][-][error][application] 绑卡结果回调 UserBank表 {"user_id":["User ID不能为空。"]}
+    in /Users/heyafei/code/loan_market/open/services/OrderService.php:275
+    in /Users/heyafei/code/loan_market/open/services/OrderService.php:313
+    in /Users/heyafei/code/loan_market/open/controllers/OrderController.php:68
+2019-03-19 16:38:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/heyafei/code/loan_market/open/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60924'
+    'SERVER_SOFTWARE' => 'PHP 7.1.25 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8282'
+    'REQUEST_URI' => '/order/bind-card-feedback'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/heyafei/code/loan_market/open/web/index.php'
+    'PATH_INFO' => '/order/bind-card-feedback'
+    'PHP_SELF' => '/index.php/order/bind-card-feedback'
+    'HTTP_HOST' => '127.0.0.1:8282'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '512'
+    'HTTP_CONTENT_LENGTH' => '512'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_POSTMAN_TOKEN' => '85252d70-3a3a-8cbb-8c73-fdb0042690aa'
+    'CONTENT_TYPE' => 'application/json'
+    'HTTP_CONTENT_TYPE' => 'application/json'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'REQUEST_TIME_FLOAT' => 1552984683.367
+    'REQUEST_TIME' => 1552984683
+]

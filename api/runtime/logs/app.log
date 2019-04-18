@@ -1,0 +1,150 @@
+2019-03-04 19:56:12 [127.0.0.1][-][-][error][ex] [
+    'code' => 10004,
+    'msg' => 'invalid param',
+    'debug' => [
+        'request_info' => [
+            'path_info' => 'login/captcha-msg',
+            'method' => 'POST',
+            'header' => [
+                'host' => [
+                    '127.0.0.1:8080',
+                ],
+                'connection' => [
+                    'keep-alive',
+                ],
+                'content-length' => [
+                    '147',
+                ],
+                'origin' => [
+                    'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+                ],
+                'timestamp' => [
+                    '111',
+                ],
+                'devicetype' => [
+                    '11',
+                ],
+                'authorization' => [
+                    'qqqq',
+                ],
+                'osversion' => [
+                    '11111',
+                ],
+                'channelid' => [
+                    '1111',
+                ],
+                'packagename' => [
+                    'aaaa',
+                ],
+                'postman-token' => [
+                    '4bc0b824-4c97-b499-7109-ec9ba9701eef',
+                ],
+                'sign' => [
+                    '11111',
+                ],
+                'deviceid' => [
+                    '11111',
+                ],
+                'source' => [
+                    '111',
+                ],
+                'user-agent' => [
+                    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36',
+                ],
+                'content-type' => [
+                    'multipart/form-data; boundary=----WebKitFormBoundarysVYlIfcLGkocoeia',
+                ],
+                'cache-control' => [
+                    'no-cache',
+                ],
+                'appmarket' => [
+                    '11111',
+                ],
+                'appversion' => [
+                    '1.1.1',
+                ],
+                'accept' => [
+                    '*/*',
+                ],
+                'accept-encoding' => [
+                    'gzip, deflate, br',
+                ],
+                'accept-language' => [
+                    'zh-CN,zh;q=0.9,en;q=0.8',
+                ],
+            ],
+            'get' => [],
+            'post' => [
+                'phone' => '13140438775',
+            ],
+        ],
+        'error_code' => 10004,
+        'error_file' => '/Users/heyafei/code/loan_market/api/controllers/LoginController.php',
+        'error_line' => 55,
+        'error_msg' => 'invalid param',
+        'error_trace' => [
+            '#0 [internal function]: api\\controllers\\LoginController->actionCaptchaMsg()',
+            '#1 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)',
+            '#2 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Controller.php(157): yii\\base\\InlineAction->runWithParams(Array)',
+            '#3 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Module.php(528): yii\\base\\Controller->runAction(\'captcha-msg\', Array)',
+            '#4 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/web/Application.php(103): yii\\base\\Module->runAction(\'login/captcha-m...\', Array)',
+            '#5 /Users/heyafei/code/loan_market/vendor/yiisoft/yii2/base/Application.php(386): yii\\web\\Application->handleRequest(Object(common\\components\\Request))',
+            '#6 /Users/heyafei/code/loan_market/api/web/index.php(34): yii\\base\\Application->run()',
+            '#7 {main}',
+        ],
+    ],
+]
+    in /Users/heyafei/code/loan_market/common/behaviors/ExceptionResponse.php:68
+    in /Users/heyafei/code/loan_market/common/components/ErrorHandle.php:25
+    in /Users/heyafei/code/loan_market/common/components/ErrorHandle.php:47
+2019-03-04 19:56:12 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = [
+    'phone' => '13140438775'
+]
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/Users/heyafei/code/loan_market/api/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '65425'
+    'SERVER_SOFTWARE' => 'PHP 7.1.25 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/login/captcha-msg'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/Users/heyafei/code/loan_market/api/web/index.php'
+    'PATH_INFO' => '/login/captcha-msg'
+    'PHP_SELF' => '/index.php/login/captcha-msg'
+    'HTTP_HOST' => '127.0.0.1:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '147'
+    'HTTP_CONTENT_LENGTH' => '147'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'HTTP_TIMESTAMP' => '111'
+    'HTTP_DEVICETYPE' => '11'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_OSVERSION' => '11111'
+    'HTTP_CHANNELID' => '1111'
+    'HTTP_PACKAGENAME' => 'aaaa'
+    'HTTP_POSTMAN_TOKEN' => '4bc0b824-4c97-b499-7109-ec9ba9701eef'
+    'HTTP_SIGN' => '11111'
+    'HTTP_DEVICEID' => '11111'
+    'HTTP_SOURCE' => '111'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarysVYlIfcLGkocoeia'
+    'HTTP_CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundarysVYlIfcLGkocoeia'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_APPMARKET' => '11111'
+    'HTTP_APPVERSION' => '1.1.1'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.9,en;q=0.8'
+    'REQUEST_TIME_FLOAT' => 1551700572.5412
+    'REQUEST_TIME' => 1551700572
+]
